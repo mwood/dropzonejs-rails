@@ -9,6 +9,8 @@ module DropzonejsRails
 
       def copy_files
         copy_file 'dropzone.js', 'vendor/assets/javascripts/dropzone.js'
+        copy_file 'emitter.js', 'vendor/assets/javascripts/emitter.js'
+        copy_file 'options.js', 'vendor/assets/javascripts/options.js'
       end
     end
   end
