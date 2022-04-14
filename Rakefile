@@ -25,8 +25,6 @@ namespace :dropzone do
   task :replace do
     puts "=> Fetching dropzone v#{DropzonejsRails::DROPZONE_VERSION}..."
     download_dropzone_file 'dropzone.js', 'app/assets/javascripts/dropzone.js'
-    download_dropzone_file 'options.js', 'app/assets/javascripts/options.js'
-    download_dropzone_file 'emitter.js', 'app/assets/javascripts/emitter.js'
     download_dropzone_file 'basic.css', 'app/assets/stylesheets/dropzone/basic.css'
     download_dropzone_file 'dropzone.css', 'app/assets/stylesheets/dropzone/dropzone.css'
     puts " ✔ Fetched"
